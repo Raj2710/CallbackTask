@@ -6,6 +6,7 @@ function timer()
     if(value == 0)
     {
         ele.innerHTML="Happy Independance Day!!!";
+        value=10;
         return;
     }
     setTimeout(timer, 1000);
